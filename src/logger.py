@@ -9,4 +9,4 @@ def log( text ):
 	print(enc(text), file = open("log.log", mode="a", encoding='utf-8'))
 
 def clear():
-	open("log.txt", "w+")
+	open("log.log", "w+")
